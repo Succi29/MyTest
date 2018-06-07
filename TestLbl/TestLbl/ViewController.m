@@ -19,6 +19,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     NSLog(@"11111");
     NSLog(@"2222");
+    NSLog(@"冲突");
 //    UIView *view = [self creatViewWithTagString:@"我是你爷爷" andCount:100];
 //    //自己改位置
 //    view.center = self.view.center;
