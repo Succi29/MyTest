@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    NSLog(@"444制造冲突");
+    NSLog(@"冲突");
 //    UIView *view = [self creatViewWithTagString:@"我是你爷爷" andCount:100];
 //    //自己改位置
 //    view.center = self.view.center;
