@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 typedef void(^ClickBlock)(void);
 @interface ZMTGuidePage : UIView
+{
+    NSString *_name;
+}
 /**
  @param frames 装有图片frame的数组
  @param names  装有图片名称的数组，需要与frames个数一致，否则显示会无法显示这张图片

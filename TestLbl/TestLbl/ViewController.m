@@ -8,29 +8,36 @@
 
 #import "ViewController.h"
 #import "ZMTGuidePage.h"
+#import "TestView.h"
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
 
+@implementation ViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    NSLog(@"11111");
-    NSLog(@"2222");
-    NSLog(@"冲突");
 //    UIView *view = [self creatViewWithTagString:@"我是你爷爷" andCount:100];
 //    //自己改位置
 //    view.center = self.view.center;
 //    [self.view addSubview:view];
+//    self.name = @"hehehhe";
+//   __block int a = 0 ;
+    void (^foo)(void) = ^{
+        _bigName = @"haha";
+    };
+    foo();
+    NSLog(@"%@",_bigName);
+
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    NSArray *frames = @[[NSValue valueWithCGRect:CGRectMake(10, 20, 50, 50)],[NSValue valueWithCGRect:CGRectMake(80, 80, 80, 80)],[NSValue valueWithCGRect:CGRectMake(200, 200, 80, 80)]];
-    NSArray *names = @[@"58",@"87",@"120"];
-    [ZMTGuidePage showGuidePageWithImgFrames:frames andImgNames:names andPageName:NSStringFromClass([self class]) andclickIndex:2 clickBlock:^{
-        NSLog(@"你点我了！！");
-    }];
+//    NSArray *frames = @[[NSValue valueWithCGRect:CGRectMake(10, 20, 50, 50)],[NSValue valueWithCGRect:CGRectMake(80, 80, 80, 80)],[NSValue valueWithCGRect:CGRectMake(200, 200, 80, 80)]];
+//    NSArray *names = @[@"58",@"87",@"120"];
+//    [ZMTGuidePage showGuidePageWithImgFrames:frames andImgNames:names andPageName:NSStringFromClass([self class]) andclickIndex:2 clickBlock:^{
+//        NSLog(@"你点我了！！");
+//    }];
+   
 }
 
 - (void)didReceiveMemoryWarning {

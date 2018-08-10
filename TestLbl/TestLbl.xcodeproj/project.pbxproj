@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194647C82109B4550099DFD7 /* UIView+MSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 194647C62109B4550099DFD7 /* UIView+MSTool.m */; };
+		194647CB2109BAF40099DFD7 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 194647CA2109BAF40099DFD7 /* TestView.m */; };
 		195041CA2008A1FC00E1A85F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 195041C92008A1FC00E1A85F /* AppDelegate.m */; };
 		195041CD2008A1FC00E1A85F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195041CC2008A1FC00E1A85F /* ViewController.m */; };
 		195041D02008A1FC00E1A85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195041CE2008A1FC00E1A85F /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		194647C62109B4550099DFD7 /* UIView+MSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSTool.m"; sourceTree = "<group>"; };
+		194647C72109B4550099DFD7 /* UIView+MSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSTool.h"; sourceTree = "<group>"; };
+		194647C92109BAF40099DFD7 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		194647CA2109BAF40099DFD7 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		195041C52008A1FC00E1A85F /* TestLbl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLbl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195041C82008A1FC00E1A85F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		195041C92008A1FC00E1A85F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,8 +77,12 @@
 				195041C92008A1FC00E1A85F /* AppDelegate.m */,
 				195041CB2008A1FC00E1A85F /* ViewController.h */,
 				195041CC2008A1FC00E1A85F /* ViewController.m */,
+				194647C92109BAF40099DFD7 /* TestView.h */,
+				194647CA2109BAF40099DFD7 /* TestView.m */,
 				195041DE2008B64F00E1A85F /* ZMTGuidePage.h */,
 				195041DF2008B65000E1A85F /* ZMTGuidePage.m */,
+				194647C72109B4550099DFD7 /* UIView+MSTool.h */,
+				194647C62109B4550099DFD7 /* UIView+MSTool.m */,
 				195041E2200CB29500E1A85F /* 58.png */,
 				195041E1200CB29500E1A85F /* 87.png */,
 				195041E3200CB29500E1A85F /* 120.png */,
@@ -162,6 +172,8 @@
 				195041CD2008A1FC00E1A85F /* ViewController.m in Sources */,
 				195041D82008A1FC00E1A85F /* main.m in Sources */,
 				195041CA2008A1FC00E1A85F /* AppDelegate.m in Sources */,
+				194647C82109B4550099DFD7 /* UIView+MSTool.m in Sources */,
+				194647CB2109BAF40099DFD7 /* TestView.m in Sources */,
 				195041E02008B65000E1A85F /* ZMTGuidePage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
